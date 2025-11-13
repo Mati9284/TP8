@@ -8,11 +8,9 @@ int main ()
 {
 	setlocale(LC_ALL, "spanish");
 	int v[4];
-	int valor=0, total=0,mayor=0,menor=99999999999999999999999999,retornar=0;
-	cout << "Este programa indica la suma de todos los elementos de un vector de números enteros" << endl;
-	cout << "Ingrese cuántos valores de vectores quiera ingresar" << endl;
-	cin >> valor;
-	for (int i=0;i<valor;i++)
+	int valor=0, total=0,mayor=0,menor=99999999999,retornar=0;
+	cout << "Este programa indica cuál es el mayor y el menor de 10 números" << endl;
+	for (int i=0;i<10;i++)
 	{
 		cout << "Ingrese primer valor" << endl;
 		cin >> v [valor];
